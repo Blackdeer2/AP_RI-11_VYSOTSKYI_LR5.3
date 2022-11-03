@@ -13,10 +13,9 @@ int main()
 
    double dk = (kk - kp) / n;
    double k = kp;
-   while (k = kp) {
+   while (k <= kk) {
       q = z(2 * k + 1) - pow(z(2 * k - 1), 2) + sqrt(z(k));
-      cout << k << " " << z << endl;
-
+      cout << k << " " << q << endl;
       k += dk;
    }
 
@@ -39,6 +38,6 @@ double z(const double x)
          a *= R;
          S += R;
       } while (j < 4);
+      return S;
    }
-   return 0.0;
 }
